@@ -1,0 +1,31 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "(gdb) Launch", 
+            "type": "cppdbg",
+            "request": "launch",
+            // "program": "${command:cmake.launchTargetPath}", 
+            "program": "${workspaceFolder}/OpenGLDemo", 
+            "args": [], 
+            "stopAtEntry": false, 
+            "cwd": "${workspaceFolder}", 
+            "environment": [], 
+            "externalConsole": true, 
+            "internalConsoleOptions": "neverOpen", 
+            "MIMode": "gdb", 
+            "miDebuggerPath": "/Users/hlw/.vscode/extensions/ms-vscode.cpptools-0.24.0/debugAdapters/lldb/bin/lldb-mi",
+            "setupCommands": [ 
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "logging": {
+                "engineLogging": true
+            },
+            "preLaunchTask": "make"
+        }
+    ]
+}

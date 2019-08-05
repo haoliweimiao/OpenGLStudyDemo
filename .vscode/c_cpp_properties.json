@@ -1,0 +1,31 @@
+{
+    "configurations": [
+        {
+            "name": "macOS",
+            "intelliSenseMode": "clang-x64",
+            "compilerPath": "/usr/local/Cellar/llvm/8.0.0_1/bin/clang++",
+            "includePath": [
+                "${workspaceFolder}",
+                "/usr/local/include"
+            ],
+            "defines": [],
+            "macFrameworkPath": [
+                "/System/Library/Frameworks",
+                "/Library/Frameworks",
+                "/usr/local/include"
+            ],
+            "browse": {
+                "path": [
+                    "${workspaceFolder}",
+                    "/usr/local/include/**"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            },
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "configurationProvider": "vector-of-bool.cmake-tools"
+        }
+    ],
+    "version": 4
+}
