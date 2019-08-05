@@ -1,1 +1,11 @@
 build/*
+**/build/*
+CMakeFiles/*
+**/CMakeFiles/*
+OpenGLDemo
+CmakeCache.txt
+*/CmakeCache.txt
+cmake_install.cmake
+*.a
+*/*.a
+Makefile
