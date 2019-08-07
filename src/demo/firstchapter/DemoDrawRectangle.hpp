@@ -1,13 +1,11 @@
 /*
- * @Description: draw ten 3d rotating box
  * @Author: haoliwei
- * @Date: 2019-07-20 13:03:49
- * @LastEditTime: 2019-08-07 22:34:53
- * @LastEditors: Please set LastEditors
+ * @Date: 2019-06-23 20:42:35
+ * @Last Modified by: haoliwei
+ * @Last Modified time: 2019-06-23 20:57:18
  */
-
-#ifndef DemoColorOnehpp
-#define DemoColorOnehpp
+#ifndef DemoDrawRectanglehpp
+#define DemoDrawRectanglehpp
 
 #include "../../config/ConstantConfig.hpp"
 #include "../../glsl/Shader.hpp"
@@ -15,16 +13,14 @@
 #include "../../utils/DrawBaseUtils.hpp"
 #include "../../utils/KeyboardUtils.hpp"
 #include "../../utils/OpenGLInitUtils.hpp"
-#include "../../utils/ThreadSleepUtils.hpp"
 #include "stb_image.h"
 #include <GLFW/glfw3.h>
-#include <filesystem>
 #include <glad/glad.h>
 #include <glm/glm.hpp>
 #include <glm/gtc/matrix_transform.hpp>
 #include <glm/gtc/type_ptr.hpp>
 #include <iostream>
 
-int demoFunDrawColorOne();
+int demoFunDrawRectangle();
 
-#endif /* DemoColorOnehpp */
+#endif /* DemoDrawRectanglehpp */

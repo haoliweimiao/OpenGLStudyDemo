@@ -1,17 +1,17 @@
 /*
- * @Description: 绘制2个正方形 一个纯白，一个橘色
+ * @Description: 添加一个
  * @Author: your name
  * @Date: 2019-08-05 22:25:26
- * @LastEditTime: 2019-08-07 22:53:55
+ * @LastEditTime: 2019-08-07 22:36:54
  * @LastEditors: Please set LastEditors
  */
 
-#include "DemoColorOne.hpp"
+#include "DemoColorTwo.hpp"
 
 void mouse_callback(GLFWwindow *window, double xpos, double ypos);
 void scroll_callback(GLFWwindow *window, double xoffset, double yoffset);
 
-int demoFunDrawColorOne() {
+int demoFunDrawColorTwo() {
   initOpenGL();
 
   // glfw window creation

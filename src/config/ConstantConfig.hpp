@@ -31,6 +31,9 @@ static bool firstMouse = true;
 static float deltaTime = 0.0f;	// time between current frame and last frame
 static float lastFrame = 0.0f;
 
+// lighting
+static glm::vec3 lightPos(1.2f, 1.0f, 2.0f);
+
 static const char *VERTEX_SHADER_SOURCE =
     "#version 330 core\n"
     "layout (location = 0) in vec3 aPos;\n"

@@ -2,12 +2,12 @@
  * @Description: draw ten 3d rotating box
  * @Author: haoliwei
  * @Date: 2019-07-20 13:03:49
- * @LastEditTime: 2019-08-07 22:34:53
+ * @LastEditTime: 2019-08-07 22:36:48
  * @LastEditors: Please set LastEditors
  */
 
-#ifndef DemoColorOnehpp
-#define DemoColorOnehpp
+#ifndef DemoColorTwohpp
+#define DemoColorTwohpp
 
 #include "../../config/ConstantConfig.hpp"
 #include "../../glsl/Shader.hpp"
@@ -25,6 +25,6 @@
 #include <glm/gtc/type_ptr.hpp>
 #include <iostream>
 
-int demoFunDrawColorOne();
+int demoFunDrawColorTwo();
 
-#endif /* DemoColorOnehpp */
+#endif /* DemoColorTwohpp */

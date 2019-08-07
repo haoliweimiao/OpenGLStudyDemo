@@ -15,6 +15,7 @@ void main() {
   // aPos.x 取反，图像y轴方向镜像效果
   // aPos.y 取反，图像x轴方向镜像效果
   gl_Position = vec4(aPos.x * xDirection, aPos.y * yDirection, aPos.z, 1.0);
+  // gl_Position = vec4(-aPosition.x , aPosition.y , aPosition.z, 1.0);
   // ourColor = aColor;
   TexCoord = aTexCoord;
 }

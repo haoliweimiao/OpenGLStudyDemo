@@ -9,3 +9,6 @@ cmake_install.cmake
 *.a
 */*.a
 Makefile
+GPATH
+GRTAGS
+GTAGS
