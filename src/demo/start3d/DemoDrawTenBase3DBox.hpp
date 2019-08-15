@@ -2,7 +2,7 @@
  * @Description: draw ten 3d rotating box
  * @Author: haoliwei
  * @Date: 2019-07-20 13:03:49
- * @LastEditTime: 2019-07-27 21:05:20
+ * @LastEditTime: 2019-08-09 07:03:49
  * @LastEditors: Please set LastEditors
  */
 
@@ -12,7 +12,6 @@
 #include "../../config/ConstantConfig.hpp"
 #include "../../glsl/Shader.hpp"
 #include "../../implement/FramebufferSizeCallbackImpl.hpp"
-#include "../../utils/DrawBaseUtils.hpp"
 #include "../../utils/KeyboardUtils.hpp"
 #include "../../utils/OpenGLInitUtils.hpp"
 #include "../../utils/ThreadSleepUtils.hpp"

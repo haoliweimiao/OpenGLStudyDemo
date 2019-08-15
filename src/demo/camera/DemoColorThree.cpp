@@ -1,17 +1,17 @@
 /*
- * @Description: 添加两不同颜色的立方体，带灯光效果
- * @Author: your name
- * @Date: 2019-08-05 22:25:26
- * @LastEditTime: 2019-08-15 20:42:23
+ * @Description: 绘制两个立方体，一个光源，一个为物体。在观察空间（而不是世界空间）中计算冯氏光照：参考解答。
+ * @Author: haoliwei
+ * @Date: 2019年08月15日20:58:50
+ * @LastEditTime: 2019-08-15 21:10:48
  * @LastEditors: Please set LastEditors
  */
 
-#include "DemoColorTwo.hpp"
+#include "DemoColorThree.hpp"
 
 void mouse_callback(GLFWwindow *window, double xpos, double ypos);
 void scroll_callback(GLFWwindow *window, double xoffset, double yoffset);
 
-int demoFunDrawColorTwo() {
+int demoFunDrawColorThree() {
   initOpenGL();
 
   // glfw window creation
@@ -47,9 +47,9 @@ int demoFunDrawColorTwo() {
   // build and compile our shader zprogram
   // ------------------------------------
   Shader lightingShader("/Users/hlw/workspace/c++/VSCodeOpenGL/src/glsl/camera/"
-                        "2.2.basic_lighting.vs",
+                        "2.3.basic_lighting.vs",
                         "/Users/hlw/workspace/c++/VSCodeOpenGL/src/glsl/camera/"
-                        "2.2.basic_lighting.fs");
+                        "2.3.basic_lighting.fs");
 
   Shader lampShader("/Users/hlw/workspace/c++/VSCodeOpenGL/src/glsl/camera/"
                     "2.2.lamp.vs",
@@ -148,8 +148,8 @@ int demoFunDrawColorTwo() {
     // change the light's position values over time (can be done anywhere in the
     // render loop actually, but try to do it at least before using the light
     // source positions)
-    lightPos.x = 1.0f + sin(glfwGetTime()) * 2.0f;
-    lightPos.y = sin(glfwGetTime() / 2.0f) * 1.0f;
+    // lightPos.x = 1.0f + sin(glfwGetTime()) * 2.0f;
+    // lightPos.y = sin(glfwGetTime() / 2.0f) * 1.0f;
 
     // be sure to activate shader when setting uniforms/drawing objects
     lightingShader.use();

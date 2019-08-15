@@ -10,7 +10,6 @@
 
 #include "../../config/ConstantConfig.hpp"
 #include "../../implement/FramebufferSizeCallbackImpl.hpp"
-#include "../../utils/DrawBaseUtils.hpp"
 #include "../../utils/KeyboardUtils.hpp"
 #include "../../utils/OpenGLInitUtils.hpp"
 #include <GLFW/glfw3.h>

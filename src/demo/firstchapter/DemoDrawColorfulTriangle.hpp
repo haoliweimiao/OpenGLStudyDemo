@@ -7,7 +7,6 @@
 #ifndef DemoDrawColorfulTrianglehpp
 #define DemoDrawColorfulTrianglehpp
 
-#include "../../utils/DrawBaseUtils.hpp"
 #include "../../utils/KeyboardUtils.hpp"
 #include "../../utils/OpenGLInitUtils.hpp"
 #include "../../config/ConstantConfig.hpp"

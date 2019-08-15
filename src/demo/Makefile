@@ -125,6 +125,33 @@ USER_SRC_DEMO_LIB/fast:
 	cd /Users/hlw/workspace/c++/VSCodeOpenGL && $(MAKE) -f src/demo/CMakeFiles/USER_SRC_DEMO_LIB.dir/build.make src/demo/CMakeFiles/USER_SRC_DEMO_LIB.dir/build
 .PHONY : USER_SRC_DEMO_LIB/fast
 
+Demo.o: Demo.cpp.o
+
+.PHONY : Demo.o
+
+# target to build an object file
+Demo.cpp.o:
+	cd /Users/hlw/workspace/c++/VSCodeOpenGL && $(MAKE) -f src/demo/CMakeFiles/USER_SRC_DEMO_LIB.dir/build.make src/demo/CMakeFiles/USER_SRC_DEMO_LIB.dir/Demo.cpp.o
+.PHONY : Demo.cpp.o
+
+Demo.i: Demo.cpp.i
+
+.PHONY : Demo.i
+
+# target to preprocess a source file
+Demo.cpp.i:
+	cd /Users/hlw/workspace/c++/VSCodeOpenGL && $(MAKE) -f src/demo/CMakeFiles/USER_SRC_DEMO_LIB.dir/build.make src/demo/CMakeFiles/USER_SRC_DEMO_LIB.dir/Demo.cpp.i
+.PHONY : Demo.cpp.i
+
+Demo.s: Demo.cpp.s
+
+.PHONY : Demo.s
+
+# target to generate assembly for a file
+Demo.cpp.s:
+	cd /Users/hlw/workspace/c++/VSCodeOpenGL && $(MAKE) -f src/demo/CMakeFiles/USER_SRC_DEMO_LIB.dir/build.make src/demo/CMakeFiles/USER_SRC_DEMO_LIB.dir/Demo.cpp.s
+.PHONY : Demo.cpp.s
+
 Null.o: Null.cpp.o
 
 .PHONY : Null.o
@@ -161,6 +188,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... USER_SRC_DEMO_LIB"
+	@echo "... Demo.o"
+	@echo "... Demo.i"
+	@echo "... Demo.s"
 	@echo "... Null.o"
 	@echo "... Null.i"
 	@echo "... Null.s"

@@ -11,7 +11,6 @@
 #include "../../config/ConstantConfig.hpp"
 #include "../../glsl/Shader.hpp"
 #include "../../implement/FramebufferSizeCallbackImpl.hpp"
-#include "../../utils/DrawBaseUtils.hpp"
 #include "../../utils/KeyboardUtils.hpp"
 #include "../../utils/OpenGLInitUtils.hpp"
 #include "stb_image.h"
