@@ -2,7 +2,7 @@
  * @Description: 绘制不同材质的方块
  * @Author: haoliwei
  * @Date: 2019年08月15日21:41:17
- * @LastEditTime: 2019-08-15 22:28:43
+ * @LastEditTime: 2019-08-16 20:58:17
  * @LastEditors: Please set LastEditors
  */
 
@@ -132,6 +132,10 @@ int demoFunDrawMaterialsOne() {
     // render
     glClearColor(0.1f, 0.1f, 0.1f, 1.0f);
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+
+    lightPos.x = sin(glfwGetTime() * 6.0f);
+    lightPos.y = sin(glfwGetTime() * 5.7f);
+    lightPos.z = sin(glfwGetTime() * 3.3f);
 
     // be sure to activate shader when setting uniforms/drawing objects
     lightingShader.use();
