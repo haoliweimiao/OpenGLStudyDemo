@@ -14,14 +14,6 @@ uniform mat4 model;
 uniform mat4 view;
 uniform mat4 projection;
 
-// void cal(float &val){
-//     if(val<1.0f){
-//         val=val+0.02f;
-//     }else{
-//         val=0.0f;
-//     }
-// }
-
 void main()
 {
     gl_Position = projection * view * model * vec4(aPos, 1.0);

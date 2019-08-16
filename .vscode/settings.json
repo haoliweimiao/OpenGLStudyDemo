@@ -101,7 +101,20 @@
     "strstream": "cpp",
     "iomanip": "cpp",
     "array": "cpp",
-    "cfenv": "cpp"
+    "cfenv": "cpp",
+    "complex": "cpp",
+    "csignal": "cpp",
+    "bitset": "cpp",
+    "deque": "cpp",
+    "list": "cpp",
+    "vector": "cpp",
+    "new": "cpp",
+    "functional": "cpp",
+    "hashtable": "cpp",
+    "random": "cpp",
+    "tuple": "cpp",
+    "unordered_map": "cpp",
+    "utility": "cpp"
   },
   "[cpp]": {
     "editor.quickSuggestions": true

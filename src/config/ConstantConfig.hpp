@@ -22,7 +22,7 @@ static const char *WINDOW_NAME = "LearnOpenGL";
 
 
 // camera
-static Camera camera(glm::vec3(0.0f, 0.0f, 3.0f));
+static Camera camera(glm::vec3(0.0f, 0.0f, 6.0f));
 static float lastX = SCR_WIDTH / 2.0f;
 static float lastY = SCR_HEIGHT / 2.0f;
 static bool firstMouse = true;
