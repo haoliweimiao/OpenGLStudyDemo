@@ -2,7 +2,7 @@
  * @Description: main cpp
  * @Author: haoliwei
  * @Date: 2019-06-23 20:16:34
- * @LastEditTime: 2019-08-15 22:24:55
+ * @LastEditTime: 2019-08-25 16:28:00
  * @LastEditors: Please set LastEditors
  */
 
@@ -22,6 +22,7 @@
 #include "src/demo/camera/DemoColorOne.hpp"
 #include "src/demo/camera/DemoColorThree.hpp"
 #include "src/demo/camera/DemoColorTwo.hpp"
+#include "src/demo/camera/DemoLightMap.hpp"
 #include "src/demo/camera/DemoMaterialOne.hpp"
 #include "src/demo/firstchapter/DemoDrawChangeColorTriangle.hpp"
 #include "src/demo/firstchapter/DemoDrawColorfulTriangle.hpp"
@@ -58,5 +59,6 @@ int main(int argc, char **argv) {
   // return demoFunDrawColorOne();
   // return demoFunDrawColorTwo();
   // return demoFunDrawColorThree();
-  return demoFunDrawMaterialsOne();
+  // return demoFunDrawMaterialsOne();
+  return demoFunDrawLightMap();
 }
