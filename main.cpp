@@ -59,6 +59,6 @@ int main(int argc, char **argv) {
   // return demoFunDrawColorOne();
   // return demoFunDrawColorTwo();
   // return demoFunDrawColorThree();
-  // return demoFunDrawMaterialsOne();
-  return demoFunDrawLightMap();
+  return demoFunDrawMaterialsOne();
+  // return demoFunDrawLightMap();
 }

@@ -1,6 +1,6 @@
 /*
  * @Description: draw base utils
- * @Author: your name
+ * @Author: haoliwei
  * @Date: 2019-06-24 23:41:01
  * @LastEditTime: 2019-08-26 07:40:33
  * @LastEditors: Please set LastEditors
@@ -42,6 +42,8 @@ unsigned int loadTexture(char const * path)
         else if (nrComponents == 4)
             format = GL_RGBA;
 
+        std::cout << "nrComponents: " << nrComponents << std::endl;
+
         glBindTexture(GL_TEXTURE_2D, textureID);
         glTexImage2D(GL_TEXTURE_2D, 0, format, width, height, 0, format, GL_UNSIGNED_BYTE, data);
         glGenerateMipmap(GL_TEXTURE_2D);
@@ -58,6 +60,8 @@ unsigned int loadTexture(char const * path)
         std::cout << "Texture failed to load at path: " << path << std::endl;
         stbi_image_free(data);
     }
+
+    std::cout << "create textureID: " << textureID << std::endl;
 
     return textureID;
 }
