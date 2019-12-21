@@ -46,14 +46,14 @@ int demoFunDrawColorOne() {
 
   // build and compile our shader zprogram
   // ------------------------------------
-  Shader lightingShader("/Users/hlw/workspace/c++/VSCodeOpenGL/src/glsl/camera/"
+  Shader lightingShader("./src/glsl/camera/"
                         "2.1.basic_lighting.vs",
-                        "/Users/hlw/workspace/c++/VSCodeOpenGL/src/glsl/camera/"
+                        "./src/glsl/camera/"
                         "2.1.basic_lighting.fs");
 
-  Shader lampShader("/Users/hlw/workspace/c++/VSCodeOpenGL/src/glsl/camera/"
+  Shader lampShader("./src/glsl/camera/"
                     "2.1.lamp.vs",
-                    "/Users/hlw/workspace/c++/VSCodeOpenGL/src/glsl/camera/"
+                    "./src/glsl/camera/"
                     "2.1.lamp.fs");
 
   // set up vertex data (and buffer(s)) and configure vertex attributes

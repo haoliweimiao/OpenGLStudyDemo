@@ -35,16 +35,16 @@ int demoFunDrawReadLocalGLSLTriangle()
   }
 
   //   Shader ourShader(
-  //       "/Users/hlw/workspace/c++/VSCodeOpenGL/src/glsl/VertexBase.glsl",
-  //       "/Users/hlw/workspace/c++/VSCodeOpenGL/src/glsl/FragmentBase.glsl");
+  //       "./src/glsl/VertexBase.glsl",
+  //       "./src/glsl/FragmentBase.glsl");
 
   //   Shader ourShader(
-  //       "/Users/hlw/workspace/c++/VSCodeOpenGL/src/glsl/VertexReverse.glsl",
-  //       "/Users/hlw/workspace/c++/VSCodeOpenGL/src/glsl/FragmentBase.glsl");
+  //       "./src/glsl/VertexReverse.glsl",
+  //       "./src/glsl/FragmentBase.glsl");
 
   Shader ourShader(
-      "/Users/hlw/workspace/c++/VSCodeOpenGL/src/glsl/VertexOffset.glsl",
-      "/Users/hlw/workspace/c++/VSCodeOpenGL/src/glsl/FragmentBase.glsl");
+      "./src/glsl/VertexOffset.glsl",
+      "./src/glsl/FragmentBase.glsl");
 
   ourShader.use();
 

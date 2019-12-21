@@ -73,8 +73,8 @@ int demoFunDrawTexture2()
   // build and compile our shader zprogram
   // ------------------------------------
   Shader ourShader(
-      "/Users/hlw/workspace/c++/VSCodeOpenGL/src/glsl/VertexTexture.glsl",
-      "/Users/hlw/workspace/c++/VSCodeOpenGL/src/glsl/FragmentTexture.glsl");
+      "./src/glsl/VertexTexture.glsl",
+      "./src/glsl/FragmentTexture.glsl");
 
   // set up vertex data (and buffer(s)) and configure vertex attributes
   // ------------------------------------------------------------------
@@ -154,7 +154,7 @@ int demoFunDrawTexture2()
   // The FileSystem::getPath(...) is part of the GitHub repository so we can
   // find files on any IDE/platform; replace it with your own image path.
   unsigned char *data =
-      stbi_load("/Users/hlw/workspace/c++/VSCodeOpenGL/res/container.jpg",
+      stbi_load("../res/container.jpg",
                 &width, &height, &nrChannels, 0);
   if (data)
   {
@@ -179,7 +179,7 @@ int demoFunDrawTexture2()
   glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_NEAREST);
   glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_NEAREST);
   // load image, create texture and generate mipmaps
-  data = stbi_load("/Users/hlw/workspace/c++/VSCodeOpenGL/res/awesomeface.png",
+  data = stbi_load("../res/awesomeface.png",
                    &width, &height, &nrChannels, 0);
   if (data)
   {

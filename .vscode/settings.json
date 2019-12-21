@@ -4,8 +4,8 @@
   "editor.snippetSuggestions": "top", // snippets代码优先显示补全
   "code-runner.runInTerminal": true, // 设置成false会在“输出”中输出，无法输入
   "code-runner.executorMap": {
-    "c": "cd $dir && gcc '/Users/hlw/workspace/c++/VSCodeOpenGL/main.cpp' -o '/Users/hlw/workspace/c++/VSCodeOpenGL/OpenGLDemo' -Wall -g -Og -static-libgcc --target=x86_64-w64-mingw -std=c11 && '$dir$fileNameWithoutExt'",
-    "cpp": "cd $dir && gcc '/Users/hlw/workspace/c++/VSCodeOpenGL/main.cpp' -o '/Users/hlw/workspace/c++/VSCodeOpenGL/OpenGLDemo' -Wall -g -Og -static-libgcc --target=x86_64-w64-mingw -std=c++17 && '$dir$fileNameWithoutExt'"
+    "c": "cd $dir && gcc '../main.cpp' -o '../OpenGLDemo' -Wall -g -Og -static-libgcc --target=x86_64-w64-mingw -std=c11 && '$dir$fileNameWithoutExt'",
+    "cpp": "cd $dir && gcc '../main.cpp' -o '../OpenGLDemo' -Wall -g -Og -static-libgcc --target=x86_64-w64-mingw -std=c++17 && '$dir$fileNameWithoutExt'"
     // "c": "cd $dir && clang '$fileName' -o '$fileNameWithoutExt.out' -Wall -g -Og -static-libgcc --target=x86_64-w64-mingw -std=c11 && '$dir$fileNameWithoutExt'",
     // "cpp": "cd $dir && clang++ '$fileName' -o '$fileNameWithoutExt.out' -Wall -g -Og -static-libgcc --target=x86_64-w64-mingw -std=c++17 && '$dir$fileNameWithoutExt'"
     // "c": "cd $dir && clang $fileName -o $fileNameWithoutExt.exe -Wall -g -Og -static-libgcc --target=x86_64-w64-mingw -std=c11 && $dir$fileNameWithoutExt",

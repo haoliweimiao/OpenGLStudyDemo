@@ -36,6 +36,7 @@
 #include "src/demo/firstchapter/DemoDrawTwoDifferentTriangle.hpp"
 #include "src/demo/firstchapter/DemoDrawTwoTranslate.hpp"
 #include "src/demo/firstchapter/DemoDrawTwoTriangle.hpp"
+#include "src/demo/line/DemoDrawLine.hpp"
 #include "src/demo/start3d/DemoDrawFirst3D.hpp"
 #include "src/demo/start3d/DemoDrawTenBase3DBox.hpp"
 
@@ -61,4 +62,5 @@ int main(int argc, char **argv) {
   // return demoFunDrawColorThree();
   return demoFunDrawMaterialsOne();
   // return demoFunDrawLightMap();
+  // return demoDrawLine();
 }

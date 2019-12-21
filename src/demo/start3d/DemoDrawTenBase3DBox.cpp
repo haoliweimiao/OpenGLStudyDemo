@@ -37,8 +37,8 @@ int demoFunDrawTenBase3DBox() {
   // build and compile our shader zprogram
   // ------------------------------------
   Shader ourShader(
-      "/Users/hlw/workspace/c++/VSCodeOpenGL/src/glsl/VertexFirst3d.glsl",
-      "/Users/hlw/workspace/c++/VSCodeOpenGL/src/glsl/FragmentTexture.glsl");
+      "./src/glsl/VertexFirst3d.glsl",
+      "./src/glsl/FragmentTexture.glsl");
 
   // set up vertex data (and buffer(s)) and configure vertex attributes
   // ------------------------------------------------------------------
@@ -109,7 +109,7 @@ int demoFunDrawTenBase3DBox() {
   stbi_set_flip_vertically_on_load(
       true); // tell stb_image.h to flip loaded texture's on the y-axis.
   unsigned char *data =
-      stbi_load("/Users/hlw/workspace/c++/VSCodeOpenGL/res/container.jpg",
+      stbi_load("../res/container.jpg",
                 &width, &height, &nrChannels, 0);
   if (data) {
     glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, width, height, 0, GL_RGB,
@@ -130,7 +130,7 @@ int demoFunDrawTenBase3DBox() {
   glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
   glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
   // load image, create texture and generate mipmaps
-  data = stbi_load("/Users/hlw/workspace/c++/VSCodeOpenGL/res/awesomeface.png",
+  data = stbi_load("../res/awesomeface.png",
                    &width, &height, &nrChannels, 0);
   if (data) {
     // note that the awesomeface.png has transparency and thus an alpha channel,

@@ -34,8 +34,8 @@ int demoFunDrawTexture() {
   // build and compile our shader zprogram
   // ------------------------------------
   Shader ourShader(
-      "/Users/hlw/workspace/c++/VSCodeOpenGL/src/glsl/VertexTexture.glsl",
-      "/Users/hlw/workspace/c++/VSCodeOpenGL/src/glsl/FragmentTexture.glsl");
+      "./src/glsl/VertexTexture.glsl",
+      "./src/glsl/FragmentTexture.glsl");
 
   // set up vertex data (and buffer(s)) and configure vertex attributes
   // ------------------------------------------------------------------
@@ -96,9 +96,9 @@ int demoFunDrawTexture() {
   // The FileSystem::getPath(...) is part of the GitHub repository so we can
   // find files on any IDE/platform; replace it with your own image path.
   unsigned char *data =
-      // stbi_load(FileSystem::getPath("/Users/hlw/workspace/c++/VSCodeOpenGL/res/container.jpg").c_str(),
+      // stbi_load(FileSystem::getPath("../res/container.jpg").c_str(),
       //           &width, &height, &nrChannels, 0);
-      stbi_load("/Users/hlw/workspace/c++/VSCodeOpenGL/res/container.jpg",
+      stbi_load("../res/container.jpg",
                 &width, &height, &nrChannels, 0);
   if (data) {
     glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, width, height, 0, GL_RGB,

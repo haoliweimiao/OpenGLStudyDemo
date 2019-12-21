@@ -42,13 +42,13 @@ int demoFunDrawLightMap() {
   glEnable(GL_DEPTH_TEST);
 
   // build and compile our shader zprogram
-  Shader lightingShader("/Users/hlw/workspace/c++/VSCodeOpenGL/src/glsl/camera/"
+  Shader lightingShader("./src/glsl/camera/"
                         "4.1.lighting_maps.vs",
-                        "/Users/hlw/workspace/c++/VSCodeOpenGL/src/glsl/camera/"
+                        "./src/glsl/camera/"
                         "4.1.lighting_maps.fs");
   Shader lampShader(
-      "/Users/hlw/workspace/c++/VSCodeOpenGL/src/glsl/camera/4.1.lamp.vs",
-      "/Users/hlw/workspace/c++/VSCodeOpenGL/src/glsl/camera/4.1.lamp.fs");
+      "./src/glsl/camera/4.1.lamp.vs",
+      "./src/glsl/camera/4.1.lamp.fs");
 // set up vertex data (and buffer(s)) and configure vertex attributes
     // ------------------------------------------------------------------
     float vertices[] = {
@@ -124,7 +124,7 @@ int demoFunDrawLightMap() {
 
     // load textures (we now use a utility function to keep the code more organized)
     // -----------------------------------------------------------------------------
-    unsigned int diffuseMap = loadTexture("/Users/hlw/workspace/c++/VSCodeOpenGL/res/container2.png");
+    unsigned int diffuseMap = loadTexture("../res/container2.png");
 
     // shader configuration
     // --------------------

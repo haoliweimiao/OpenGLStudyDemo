@@ -46,14 +46,14 @@ int demoFunDrawMaterialsOne() {
 
   // build and compile our shader zprogram
   // ------------------------------------
-  Shader lightingShader("/Users/hlw/workspace/c++/VSCodeOpenGL/src/glsl/camera/"
+  Shader lightingShader("./src/glsl/camera/"
                         "3.1.materials.vs",
-                        "/Users/hlw/workspace/c++/VSCodeOpenGL/src/glsl/camera/"
+                        "./src/glsl/camera/"
                         "3.1.materials.fs");
 
-  Shader lampShader("/Users/hlw/workspace/c++/VSCodeOpenGL/src/glsl/camera/"
+  Shader lampShader("./src/glsl/camera/"
                     "3.1.lamp.vs",
-                    "/Users/hlw/workspace/c++/VSCodeOpenGL/src/glsl/camera/"
+                    "./src/glsl/camera/"
                     "3.1.lamp.fs");
 
   // set up vertex data (and buffer(s)) and configure vertex attributes
