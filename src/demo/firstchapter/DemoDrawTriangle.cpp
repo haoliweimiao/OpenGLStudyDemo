@@ -121,7 +121,6 @@ int demoFunDrawTriangle() {
 
   glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 3 * sizeof(float), (void *)0);
 
-  
   //使用glEnableVertexAttribArray，以顶点属性位置值作为参数，启用顶点属性；顶点属性默认是禁用的。
   glEnableVertexAttribArray(0);
   //解除绑定
@@ -158,6 +157,7 @@ int demoFunDrawTriangle() {
     glClear(GL_COLOR_BUFFER_BIT);
 
     glUseProgram(shaderProgram);
+
     glBindVertexArray(VAO);
     glDrawArrays(GL_TRIANGLES, 0, 3);
     glBindVertexArray(0);
@@ -174,6 +174,9 @@ int demoFunDrawTriangle() {
   // ------------------------------------------------------------------------
   glDeleteVertexArrays(1, &VAO);
   glDeleteBuffers(1, &VBO);
+
+  // glDeleteVertexArrays(1, &VAO2);
+  // glDeleteBuffers(1, &VBO2);
 
   // glfw: terminate, clearing all previously allocated GLFW resources.
   // ------------------------------------------------------------------

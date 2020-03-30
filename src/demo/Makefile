@@ -48,10 +48,10 @@ RM = /Applications/CMake.app/Contents/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/hlw/workspace/c++/VSCodeOpenGL
+CMAKE_SOURCE_DIR = /Volumes/WYCSSD/workspace/c++/VSCodeOpenGL
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/hlw/workspace/c++/VSCodeOpenGL
+CMAKE_BINARY_DIR = /Volumes/WYCSSD/workspace/c++/VSCodeOpenGL
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/hlw/workspace/c++/VSCodeOpenGL && $(CMAKE_COMMAND) -E cmake_progress_start /Users/hlw/workspace/c++/VSCodeOpenGL/CMakeFiles /Users/hlw/workspace/c++/VSCodeOpenGL/src/demo/CMakeFiles/progress.marks
-	cd /Users/hlw/workspace/c++/VSCodeOpenGL && $(MAKE) -f CMakeFiles/Makefile2 src/demo/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hlw/workspace/c++/VSCodeOpenGL/CMakeFiles 0
+	cd /Volumes/WYCSSD/workspace/c++/VSCodeOpenGL && $(CMAKE_COMMAND) -E cmake_progress_start /Volumes/WYCSSD/workspace/c++/VSCodeOpenGL/CMakeFiles /Volumes/WYCSSD/workspace/c++/VSCodeOpenGL/src/demo/CMakeFiles/progress.marks
+	cd /Volumes/WYCSSD/workspace/c++/VSCodeOpenGL && $(MAKE) -f CMakeFiles/Makefile2 src/demo/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Volumes/WYCSSD/workspace/c++/VSCodeOpenGL/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/hlw/workspace/c++/VSCodeOpenGL && $(MAKE) -f CMakeFiles/Makefile2 src/demo/clean
+	cd /Volumes/WYCSSD/workspace/c++/VSCodeOpenGL && $(MAKE) -f CMakeFiles/Makefile2 src/demo/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/hlw/workspace/c++/VSCodeOpenGL && $(MAKE) -f CMakeFiles/Makefile2 src/demo/preinstall
+	cd /Volumes/WYCSSD/workspace/c++/VSCodeOpenGL && $(MAKE) -f CMakeFiles/Makefile2 src/demo/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/hlw/workspace/c++/VSCodeOpenGL && $(MAKE) -f CMakeFiles/Makefile2 src/demo/preinstall
+	cd /Volumes/WYCSSD/workspace/c++/VSCodeOpenGL && $(MAKE) -f CMakeFiles/Makefile2 src/demo/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/hlw/workspace/c++/VSCodeOpenGL && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Volumes/WYCSSD/workspace/c++/VSCodeOpenGL && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/demo/CMakeFiles/USER_SRC_DEMO_LIB.dir/rule:
-	cd /Users/hlw/workspace/c++/VSCodeOpenGL && $(MAKE) -f CMakeFiles/Makefile2 src/demo/CMakeFiles/USER_SRC_DEMO_LIB.dir/rule
+	cd /Volumes/WYCSSD/workspace/c++/VSCodeOpenGL && $(MAKE) -f CMakeFiles/Makefile2 src/demo/CMakeFiles/USER_SRC_DEMO_LIB.dir/rule
 .PHONY : src/demo/CMakeFiles/USER_SRC_DEMO_LIB.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ USER_SRC_DEMO_LIB: src/demo/CMakeFiles/USER_SRC_DEMO_LIB.dir/rule
 
 # fast build rule for target.
 USER_SRC_DEMO_LIB/fast:
-	cd /Users/hlw/workspace/c++/VSCodeOpenGL && $(MAKE) -f src/demo/CMakeFiles/USER_SRC_DEMO_LIB.dir/build.make src/demo/CMakeFiles/USER_SRC_DEMO_LIB.dir/build
+	cd /Volumes/WYCSSD/workspace/c++/VSCodeOpenGL && $(MAKE) -f src/demo/CMakeFiles/USER_SRC_DEMO_LIB.dir/build.make src/demo/CMakeFiles/USER_SRC_DEMO_LIB.dir/build
 .PHONY : USER_SRC_DEMO_LIB/fast
 
 Demo.o: Demo.cpp.o
@@ -131,7 +131,7 @@ Demo.o: Demo.cpp.o
 
 # target to build an object file
 Demo.cpp.o:
-	cd /Users/hlw/workspace/c++/VSCodeOpenGL && $(MAKE) -f src/demo/CMakeFiles/USER_SRC_DEMO_LIB.dir/build.make src/demo/CMakeFiles/USER_SRC_DEMO_LIB.dir/Demo.cpp.o
+	cd /Volumes/WYCSSD/workspace/c++/VSCodeOpenGL && $(MAKE) -f src/demo/CMakeFiles/USER_SRC_DEMO_LIB.dir/build.make src/demo/CMakeFiles/USER_SRC_DEMO_LIB.dir/Demo.cpp.o
 .PHONY : Demo.cpp.o
 
 Demo.i: Demo.cpp.i
@@ -140,7 +140,7 @@ Demo.i: Demo.cpp.i
 
 # target to preprocess a source file
 Demo.cpp.i:
-	cd /Users/hlw/workspace/c++/VSCodeOpenGL && $(MAKE) -f src/demo/CMakeFiles/USER_SRC_DEMO_LIB.dir/build.make src/demo/CMakeFiles/USER_SRC_DEMO_LIB.dir/Demo.cpp.i
+	cd /Volumes/WYCSSD/workspace/c++/VSCodeOpenGL && $(MAKE) -f src/demo/CMakeFiles/USER_SRC_DEMO_LIB.dir/build.make src/demo/CMakeFiles/USER_SRC_DEMO_LIB.dir/Demo.cpp.i
 .PHONY : Demo.cpp.i
 
 Demo.s: Demo.cpp.s
@@ -149,7 +149,7 @@ Demo.s: Demo.cpp.s
 
 # target to generate assembly for a file
 Demo.cpp.s:
-	cd /Users/hlw/workspace/c++/VSCodeOpenGL && $(MAKE) -f src/demo/CMakeFiles/USER_SRC_DEMO_LIB.dir/build.make src/demo/CMakeFiles/USER_SRC_DEMO_LIB.dir/Demo.cpp.s
+	cd /Volumes/WYCSSD/workspace/c++/VSCodeOpenGL && $(MAKE) -f src/demo/CMakeFiles/USER_SRC_DEMO_LIB.dir/build.make src/demo/CMakeFiles/USER_SRC_DEMO_LIB.dir/Demo.cpp.s
 .PHONY : Demo.cpp.s
 
 Null.o: Null.cpp.o
@@ -158,7 +158,7 @@ Null.o: Null.cpp.o
 
 # target to build an object file
 Null.cpp.o:
-	cd /Users/hlw/workspace/c++/VSCodeOpenGL && $(MAKE) -f src/demo/CMakeFiles/USER_SRC_DEMO_LIB.dir/build.make src/demo/CMakeFiles/USER_SRC_DEMO_LIB.dir/Null.cpp.o
+	cd /Volumes/WYCSSD/workspace/c++/VSCodeOpenGL && $(MAKE) -f src/demo/CMakeFiles/USER_SRC_DEMO_LIB.dir/build.make src/demo/CMakeFiles/USER_SRC_DEMO_LIB.dir/Null.cpp.o
 .PHONY : Null.cpp.o
 
 Null.i: Null.cpp.i
@@ -167,7 +167,7 @@ Null.i: Null.cpp.i
 
 # target to preprocess a source file
 Null.cpp.i:
-	cd /Users/hlw/workspace/c++/VSCodeOpenGL && $(MAKE) -f src/demo/CMakeFiles/USER_SRC_DEMO_LIB.dir/build.make src/demo/CMakeFiles/USER_SRC_DEMO_LIB.dir/Null.cpp.i
+	cd /Volumes/WYCSSD/workspace/c++/VSCodeOpenGL && $(MAKE) -f src/demo/CMakeFiles/USER_SRC_DEMO_LIB.dir/build.make src/demo/CMakeFiles/USER_SRC_DEMO_LIB.dir/Null.cpp.i
 .PHONY : Null.cpp.i
 
 Null.s: Null.cpp.s
@@ -176,7 +176,7 @@ Null.s: Null.cpp.s
 
 # target to generate assembly for a file
 Null.cpp.s:
-	cd /Users/hlw/workspace/c++/VSCodeOpenGL && $(MAKE) -f src/demo/CMakeFiles/USER_SRC_DEMO_LIB.dir/build.make src/demo/CMakeFiles/USER_SRC_DEMO_LIB.dir/Null.cpp.s
+	cd /Volumes/WYCSSD/workspace/c++/VSCodeOpenGL && $(MAKE) -f src/demo/CMakeFiles/USER_SRC_DEMO_LIB.dir/build.make src/demo/CMakeFiles/USER_SRC_DEMO_LIB.dir/Null.cpp.s
 .PHONY : Null.cpp.s
 
 # Help Target
@@ -205,6 +205,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/hlw/workspace/c++/VSCodeOpenGL && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Volumes/WYCSSD/workspace/c++/VSCodeOpenGL && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

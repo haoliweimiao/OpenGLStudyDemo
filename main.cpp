@@ -43,7 +43,7 @@
 int main(int argc, char **argv) {
   // return demo();
   // return demoFunDrawTriangle();
-  // return demoFunDrawRectangle();
+  return demoFunDrawRectangle();
   // return demoFunDrawTwoTriangle();
   // return demoFunDrawTwoDifferentTriangle();
   // return demoFunDrawTwoDifferentColorTriangle();
@@ -60,7 +60,7 @@ int main(int argc, char **argv) {
   // return demoFunDrawColorOne();
   // return demoFunDrawColorTwo();
   // return demoFunDrawColorThree();
-  return demoFunDrawMaterialsOne();
+  // return demoFunDrawMaterialsOne();
   // return demoFunDrawLightMap();
   // return demoDrawLine();
 }

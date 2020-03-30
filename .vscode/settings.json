@@ -114,7 +114,10 @@
     "random": "cpp",
     "tuple": "cpp",
     "unordered_map": "cpp",
-    "utility": "cpp"
+    "utility": "cpp",
+    "algorithm": "cpp",
+    "*.ipp": "cpp",
+    "__string": "cpp"
   },
   "[cpp]": {
     "editor.quickSuggestions": true
