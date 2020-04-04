@@ -43,14 +43,14 @@
 int main(int argc, char **argv) {
   // return demo();
   // return demoFunDrawTriangle();
-  return demoFunDrawRectangle();
+  // return demoFunDrawRectangle();
   // return demoFunDrawTwoTriangle();
   // return demoFunDrawTwoDifferentTriangle();
   // return demoFunDrawTwoDifferentColorTriangle();
   // return demoFunDrawChangeColorTriangle();
   // return demoFunDrawColorfulTriangle();
   // return demoFunDrawReadLocalGLSLTriangle();
-  // return demoFunDrawTexture();
+  return demoFunDrawTexture();
   // return demoFunDrawTexture2();
   // return demoFunDrawTranslate();
   // return demoFunDrawTwoTranslate();

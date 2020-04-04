@@ -98,7 +98,7 @@ int demoFunDrawTexture() {
   unsigned char *data =
       // stbi_load(FileSystem::getPath("../res/container.jpg").c_str(),
       //           &width, &height, &nrChannels, 0);
-      stbi_load("../res/container.jpg",
+      stbi_load("./res/container.jpg",
                 &width, &height, &nrChannels, 0);
   if (data) {
     glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, width, height, 0, GL_RGB,
